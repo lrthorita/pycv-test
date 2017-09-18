@@ -4,13 +4,13 @@
 Test Instructions
 -----
  
-**Problem:** detect circles with a diameter greater than 10 pixels.
+**Problem:** detect circles with a diameter greater than 10 pixels.  
  
 **Solution:**
 - Apply filters to eliminate noise, such as opening and closing, to eliminate elements that are mistaken for circles.
 - Use the Hough Transform for circles and check if the diameter of the circles obtained is greater than 10 pixels.
-- At the end of processing, display the images side by side.
- 
+- At the end of processing, display the images side by side.  
+
 The test images are available in the `images` folder.
 
 For this test you should use Python and the OpenCV library, in any version that allows you to run it.
