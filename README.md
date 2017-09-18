@@ -1,4 +1,27 @@
-# Teste para desenvolvedores Python + OpenCV
+
+# Test for Python + OpenCV developers [En-US] 🇺🇸
+ 
+Test Instructions
+-----
+ 
+**Problem:** detect circles with a diameter greater than 10 pixels.
+ 
+**Solution:**
+- Apply filters to eliminate noise, such as opening and closing, to eliminate elements that are mistaken for circles.
+- Use the Hough Transform for circles and check if the diameter of the circles obtained is greater than 10 pixels.
+- At the end of processing, display the images side by side.
+ 
+The test images are available in the `images` folder.
+
+For this test you should use Python and the OpenCV library, in any version that allows you to run it.
+
+How to deliver this test
+---
+You must fork this project into your own GitHub account and commit into your own repository.
+
+--------------------
+
+# Teste para desenvolvedores Python + OpenCV [Pt-BR] 🇧🇷
  
 Instruções do teste
 -----
@@ -17,3 +40,4 @@ Para este teste você deve usar Python e a biblioteca OpenCV, em qualquer versã
 Como entregar este teste
 ---
 Você deve forkar este projeto em sua própria conta do GitHub e fazer o commit em seu próprio repositório.
+
