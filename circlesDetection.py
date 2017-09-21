@@ -68,7 +68,17 @@ for i in xrange(np.size(shapes_circles,0)):
     cv2.circle(shapes_img, (shapes_circles[i,0],shapes_circles[i,1]),
                shapes_circles[i,2], (0,255,0), 3)
 
-print("The detected circles with diameter grater than 10 pixels are highlighted with green edge on shown images.")
+
+print("The detected circles with diameter grater than 10 pixels (or radius \
+grater than 5) are highlighted with green edge on the images, and listed below.\
+ On the lists, the first and second columns are the coordinates x and y of each \
+ circle's center, and the third column is the radius.\n")
+
+print('* For "circles.png"'+'\n    x    y     r')
+print(circles_circles.astype(str))
+
+print('\n* For "shapes_leo.jpg"'+'\n    x    y    r')
+print(shapes_circles.astype(str))
 
 fig = plt.figure()
 ax1 = fig.add_subplot(121)
